@@ -117,7 +117,7 @@ function mingw-w64-build {  # mingw-w64-build [args] $TARGET_PARAM $TARGET_DIR
 
     # versions
     local CONFIG_VER BINUTILS_VER MINGW_W64_VER GMP_VER MPFR_VER MPC_VER ISL_VER GCC_VER GDB_VER VERSIONS
-    CONFIG_VER="e478644"  # config.guess 2023-08-22
+    CONFIG_VER="130dcf7"  # config.guess 2024-06-03
     BINUTILS_VER="2.43"
     MINGW_W64_VER="12.0.0"
     GMP_VER="6.3.0"
@@ -154,7 +154,7 @@ function mingw-w64-build {  # mingw-w64-build [args] $TARGET_PARAM $TARGET_DIR
 
     # checksums
     local CONFIG_SHA256 BINUTILS_SHA256 MINGW_W64_SHA256 GMP_SHA256 MPFR_SHA256 MPC_SHA256 ISL_SHA256 GCC_SHA256 GDB_SHA256 CHECKSUMS
-    CONFIG_SHA256="5ff5d77fe5900690c150aa9ed59c6a4461279edccb906edfb34427cde05949df"
+    CONFIG_SHA256="f9ed132349468176ff4a934be64f6343ea02d59f91980f6d28f9d7d4e9c45882"
     BINUTILS_SHA256="fed3c3077f0df7a4a1aa47b080b8c53277593ccbb4e5e78b73ffb4e3f265e750"
     MINGW_W64_SHA256="cc41898aac4b6e8dd5cffd7331b9d9515b912df4420a3a612b5ea2955bbeed2f"
     GMP_SHA256="ac28211a7cfb609bae2e2c8d6058d66c8fe96434f740cf6fe2e47b000d1c20cb"
@@ -174,7 +174,7 @@ function mingw-w64-build {  # mingw-w64-build [args] $TARGET_PARAM $TARGET_DIR
     # internal vars
     local NAME VERSION SELF SELF_NAME HELP
     NAME="mingw-w64-build"
-    VERSION="10.2.0"
+    VERSION="10.3.0"
     SELF="${BASH_SOURCE[0]}"
     SELF_NAME=$(basename "${SELF}")
     HELP="\
